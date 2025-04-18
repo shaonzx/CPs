@@ -16,8 +16,17 @@ foreach (int i in result)
 
 #region Merge Strings Alternately
 
-string word1 = "ab", word2 = "pqrs";
+/*string word1 = "ab", word2 = "pqrs";
 var result = new MergeStringsAlternately().Regular(word1, word2);
+Console.WriteLine(result);*/
+
+#endregion
+
+
+#region Greatest Common Divisor of Strings
+
+string word1 = "ABCDEF", word2 = "ABC";
+var result = new GreatestCommonDivisorOfStrings().GcdOfStrings(word1, word2);
 Console.WriteLine(result);
 
 #endregion
